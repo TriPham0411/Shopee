@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="grid wide">
+                <nav class="navbar hide-on-tablet-mobile">
+                    <ul class="navbar__list">
+                        <li class="navbar__item navbar__item-has-qr navbar__item-separate">
+                            Vào cửa hàng trên ứng dụng
+                            <div class="navbar__qr">
+                                <img src="./assets/css/img/shopee_qr.png" alt="QR code" class="navbar__qr-img">
+                                <div class="navbar__qr-apps">
+                                    <a href="" class="navbar__qr-link">
+                                        <img src="./assets/css/img/appstore.png" alt="App Store" class="navbar__qr-download-img">
+                                    </a>
+                                    <a href="" class="navbar__qr-link">
+                                        <img src="./assets/css/img/google_play.png" alt="Google Play" class="navbar__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__item">
+                            <span class="navbar__item-no-pointer">Kết nối</span>
+                            <a href="" class="navbar__item-icon">
+                                <i class="navbar-icon ti-facebook"></i>
+                            </a>
+                            <a href="" class="navbar__item-icon">
+                                <i class="navbar-icon ti-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="navbar__list">
+                        <li class="navbar__item navbar__item-has-notify">
+                            <a href="" class="navbar__item-link">
+                                <i class="navbar-icon ti-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="navbar__notify">
+                                <div class="navbar__notify-navbar">
+                                    <p>Thông báo mới nhận</p>
+                                </div>
+                                <ul class="navbar__notify-list">
+                                    <li class="navbar__notify-item navbar__notify-item--unread">
+                                        <a href="#" class="navbar__notify-link">
+                                            <img src="./assets/css/img/Sac_dep_1.jfif" alt="" class="navbar__notify-img">
+                                            <div class="navbar__notify-info">
+                                                <spam class="navbar__notify-name">Kem BB Che Khuyết Điểm Làm Sáng Da Kèm Mút Tán Hình Nấm EELHOE - GIẢM SỐC 50%</spam>
+                                                <span class="navbar__notify-description">Kem che khuyết điểm xuất xứ Trung Quốc</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="navbar__notify-item">
+                                        <a href="#" class="navbar__notify-link">
+                                            <img src="./assets/css/img/Sac_dep_2.jfif" alt="" class="navbar__notify-img">
+                                            <div class="navbar__notify-info">
+                                                <spam class="navbar__notify-name">Mút Trang Điểm Mini Hình Giọt Nước Đeo Ngón Tay Có Thể Sử Dụng Dạng Khô Và Ướt - Đã có hàng mới 2022</spam>
+                                                <span class="navbar__notify-description">Mút trang điểm xuất xứ Trung Quốc</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="navbar__notify-item">
+                                        <a href="#" class="navbar__notify-link">
+                                            <img src="./assets/css/img/Sac_dep_3.jfif" alt="" class="navbar__notify-img">
+                                            <div class="navbar__notify-info">
+                                                <spam class="navbar__notify-name">Son dưỡng ẩm căng mọng mềm mại son dưỡng môi - Phiên bản giới hạn đến 09/09/2022</spam>
+                                                <span class="navbar__notify-description">Son dưỡng môi xuất xứ Hàn Quốc</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="navbar__notify-footer">
+                                    <a href="" class="navbar__notify-footer-btn">
+                                        Xem tất cả
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__item-link">
+                                <i class="navbar-icon ti-help-alt"></i>
+                                Trợ giúp</a>
+                        </li>
+                        
+                        <li class="navbar__item navbar__item-strong navbar__item-separate js-header-resgiter">Đăng ký</li>
+                        <li class="navbar__item navbar__item-strong js-header-login">Đăng nhập</li>
+                         
+                        <!-- <li class="navbar__item navbar__user">
+                            <i class="navbar-icon ti-user"></i>
+                            <span class="navbar__user-name">Phạm Minh Trí</span>
+                            <ul class="navbar__user-option">
+                                <li><a href="">Tài khoản của tôi</a></li>
+                                <li><a href="">Địa chỉ của tôi</a></li>
+                                <li><a href="">Đơn mua</a></li>
+                                <li class="navbar__user-item--separate"><a href="">Đăng xuất</a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                </nav>
+
+                <div class="search">
+                    <!-- Search Mobile -->
+                    <label for="mobile-search-checkbox" class="search__mobile">
+                        <i class="search__mobile-icon ti-search"></i>
+                    </label>
+
+                    <div class="search__logo hide-on-tablet">
+                        <a href="" class="search__logo-web">
+                            <img src="./assets/css/img/logo-shopee.png" alt="" class="search__logo-img">
+                        </a>
+                    </div>
+
+                    <input type="checkbox" hidden name="" id="mobile-search-checkbox" class="search__checkbox">
+
+                    <div class="search__bar">
+                        <div class="search__bar-input-warp">
+                            <input type="text" class="search__bar-input" placeholder="Tìm tên sản phẩm, thương hiệu, và tên shop">
+                            <div class="search__bar-history">
+                                <p class="search__bar-history-heading">Lịch sử tìm kiếm</p>
+                                <ul class="search__bar-history-list">
+                                    <li class="search__bar-history-item">
+                                        <a href="#">Mỹ phẩm dưỡng da</a>
+                                    </li>
+                                    <li class="search__bar-history-item">
+                                        <a href="#">Thuốc bôi trị mụn</a>
+                                    </li>
+                                    <li class="search__bar-history-item">
+                                        <a href="#">Mặt nạ đắp ban đêm</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="search__select">
+                            <span class="search__select-label">Trong shop</span>
+                            <ti class="search__select-icon ti-angle-down"></ti>
+
+                            <ul class="search__option">
+                                <li class="search__option-item search__option-item--active">
+                                    <span>Trong shop</span>
+                                    <i class="ti-check"></i>
+                                </li>
+                                <li class="search__option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="ti-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="search__bar-button ti-search"></button>
+                    </div>
+
+                    <div class="search__cart">
+                        <div class="search__cart-warp">
+                            <i class="search__cart-icon ti-shopping-cart"></i>
+                            <span class="search__cart-notice">3</span>
+                            <!-- No cart: search__cart-list--no-cart -->
+                            <div class="search__cart-list search__cart-list--has-cart">
+                                <img src="./assets/css/img/empty-cart.png" alt="" class="search__cart-no-cart-img">
+                                <span class="search__cart-list-no-cart-msg">Chưa có sản phẩm</span>
+                            <!-- Has cart: search__cart-list--has-cart -->
+                                <p class="search__cart-list-heading">Sản phẩm đã thêm</p>
+                                <ul class="search__cart-list-item">
+                                    <!-- Cart item -->
+                                    <li class="search__cart-item">
+                                            <img src="./assets/css/img/Phu_kien_di_bien_1.jfif" alt="" class="search__cart-item-img">
+                                            <div class="search__cart-item-info">
+                                                <div class="search__cart-item-head">
+                                                    <span class="search__cart-item-name">Combo 3 món đi biển siêu hot</span>
+                                                    <div class="search__cart-item-price-warp">
+                                                        <span class="search__cart-item-price">149.999đ</span>
+                                                        <span class="search__cart-item-multiply">x</span>
+                                                        <span class="search__cart-item-qnt">1</span>
+                                                    </div>
+                                                </div>
+                    
+                                                <div class="search__cart-item-body">
+                                                    <span class="search__cart-item-description">Phân loại: Bạc</span>
+                                                    <span class="search__cart-item-remove">Xoá</span>
+                                                </div>
+                                            </div>
+                                    </li>
+                                    <li class="search__cart-item">
+                                        <img src="./assets/css/img/Trang_phuc_mua_he_1.jfif" alt="" class="search__cart-item-img">
+                                        <div class="search__cart-item-info">
+                                            <div class="search__cart-item-head">
+                                                <span class="search__cart-item-name">Bộ Trang Phục Mùa Hè H4477 Gồm Chân Váy Dài Phong Cách Hồng Kông Cho Nữ</span>
+                                                <div class="search__cart-item-price-warp">
+                                                    <span class="search__cart-item-price">575.365đ</span>
+                                                    <span class="search__cart-item-multiply">x</span>
+                                                    <span class="search__cart-item-qnt">3</span>
+                                                </div>
+                                            </div>
+                
+                                            <div class="search__cart-item-body">
+                                                <span class="search__cart-item-description">Phân loại: Bạc</span>
+                                                <span class="search__cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="search__cart-item">
+                                        <img src="./assets/css/img/Thoi_trang_me_be_1.jfif" alt="" class="search__cart-item-img">
+                                        <div class="search__cart-item-info">
+                                            <div class="search__cart-item-head">
+                                                <span class="search__cart-item-name">Đầm Đi Biển Hai Dây Phong Cách Bohemian Mẫu Mới 2021 Thời Trang Mùa Hè Cho Mẹ Và Bé Gái</span>
+                                                <div class="search__cart-item-price-warp">
+                                                    <span class="search__cart-item-price">135.722đ</span>
+                                                    <span class="search__cart-item-multiply">x</span>
+                                                    <span class="search__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                
+                                            <div class="search__cart-item-body">
+                                                <span class="search__cart-item-description">Phân loại: Bạc</span>
+                                                <span class="search__cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="#" class="search__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Liên quan</a>
+                </li>
+                <li class="header__sort-item header__sort-item--active">
+                    <a href="" class="header__sort-link">Mới nhất</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Bán chạy</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Giá</a>
+                </li>
+            </ul>
+        </header>
+
+        <div class="container">
+            <div class="grid wide">
+                <div class="row sm-gutter content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__heading">Danh Mục</h3>
+            
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="" class="category-item__link">Trang phục mùa hè</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Phụ kiện đi biển</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Áo tắm & Bikini </a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Thời trang cho mẹ & bé</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Thiết bị điện tử</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Máy ảnh & Máy quay phim</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Sắc đẹp</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Giày dép nữ</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Giày dép nam</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+    
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-on-tablet-mobile">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <ti class="select-input__icon ti-angle-down"></ti>
+                                
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">Giá: Thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">Giá: Cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/14
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="#" class="home-filter__page-btn home-filter__page-btn-disabled">
+                                        <ti class="home-filter__page-icon ti-angle-left"></ti>
+                                    </a>
+                                    <a href="#" class="home-filter__page-btn">
+                                        <ti class="home-filter__page-icon ti-angle-right"></ti>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__item-link">Trang phục mùa hè</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__item-link">Phụ kiện đi biển</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__item-link">Áo tắm & Bikini </a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__item-link">Thời trang cho mẹ & bé</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__item-link">Thiết bị điện tử</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__item-link">Máy ảnh & Máy quay phim</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__item-link">Sắc đẹp</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__item-link">Giày dép nữ</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__item-link">Giày dép nam</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./assets/css/img/Trang_phuc_mua_he_1.jfif)">
+                                        </div>
+                                        
+                                        <h4 class="home-product__item-name">Bộ Trang Phục Mùa Hè H4477 Gồm Chân Váy Dài Phong Cách Hồng Kông Cho Nữ</h4>
+                                        
+                                        <div class="home-product__item-price">
+                                            <span class="home-product__item-price-old">633.950đ</span>
+                                            <span class="home-product__item-price-current">575.365đ</span>
+                                        </div>
+                                        
+                                        <div class="home-product__item-action">
+                                            <div class="home-product__item-like home-product__item-like--liked">
+                                                <i class="home-product__item-like-icon-empty ti-heart"></i>
+                                                <i class="home-product__item-like-icon-fill ti-heart"></i>
+                                            </div>
+
+                                            <div class="home-product__item-rating">
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="ti-star"></i>
+                                            </div>
+
+                                            <span class="home-product__item-sold">30 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product__item-origin">
+                                            <span class="home-product__item-brand">Nước ngoài</span>
+                                            <span class="home-product__item-country">Trung Quốc</span>
+                                        </div>
+
+                                        <div class="home-product__item-favourite">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product__item-sale-off">
+                                            <span class="home-product__item-sale-off__percent">
+                                                10%
+                                            </span>
+                                            <span class="home-product__item-sale-off__label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>   
+                                
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./assets/css/img/Trang_phuc_mua_he_2.jfif)">
+                                        </div>
+                                        
+                                        <h4 class="home-product__item-name">Bộ Trang Phục Hai Mảnh Gồm Áo Ngắn Và Chân Váy Ngắn Màu Đen Thời Trang Mùa Hè 2022 Dành Cho Bạn Nữ</h4>
+                                        
+                                        <div class="home-product__item-price">
+                                            <span class="home-product__item-price-old">374.103đ</span>
+                                            <span class="home-product__item-price-current">299.999đ</span>
+                                        </div>
+                                        
+                                        <div class="home-product__item-action">
+                                            <div class="home-product__item-like home-product__item-like--liked">
+                                                <i class="home-product__item-like-icon-empty ti-heart"></i>
+                                                <i class="home-product__item-like-icon-fill ti-heart"></i>
+                                            </div>
+
+                                            <div class="home-product__item-rating">
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="ti-star"></i>
+                                            </div>
+
+                                            <span class="home-product__item-sold">8 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product__item-origin">
+                                            <span class="home-product__item-brand">Nước ngoài</span>
+                                            <span class="home-product__item-country">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product__item-favourite">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product__item-sale-off">
+                                            <span class="home-product__item-sale-off__percent">
+                                                20%
+                                            </span>
+                                            <span class="home-product__item-sale-off__label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>  
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./assets/css/img/Trang_phuc_mua_he_3.jfif)">
+                                        </div>
+                                        
+                                        <h4 class="home-product__item-name">Bộ Đồ Thể Thao 2 Món Áo Thun Tay Ngắn Cổ Tròn Phối Quần Short Màu Tương Phản Thời Trang Mùa Hè Cho Nữ 2022</h4>
+                                        
+                                        <div class="home-product__item-price">
+                                            <span class="home-product__item-price-old">288.000đ</span>
+                                            <span class="home-product__item-price-current">228.000đ</span>
+                                        </div>
+                                        
+                                        <div class="home-product__item-action">
+                                            <div class="home-product__item-like home-product__item-like--liked">
+                                                <i class="home-product__item-like-icon-empty ti-heart"></i>
+                                                <i class="home-product__item-like-icon-fill ti-heart"></i>
+                                            </div>
+
+                                            <div class="home-product__item-rating">
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="ti-star"></i>
+                                            </div>
+
+                                            <span class="home-product__item-sold">12 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product__item-origin">
+                                            <span class="home-product__item-brand">Nước ngoài</span>
+                                            <span class="home-product__item-country">Trung Quốc</span>
+                                        </div>
+
+                                        <div class="home-product__item-favourite">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product__item-sale-off">
+                                            <span class="home-product__item-sale-off__percent">
+                                                21%
+                                            </span>
+                                            <span class="home-product__item-sale-off__label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>  
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./assets/css/img/Trang_phuc_mua_he_4.jfif)">
+                                        </div>
+                                        
+                                        <h4 class="home-product__item-name">Bộ Trang Phục Múa Ba Lê Tay Ngắn Thời Trang Mùa Hè Cho Bé Gái</h4>
+                                        
+                                        <div class="home-product__item-price">
+                                            <span class="home-product__item-price-old">395.000đ</span>
+                                            <span class="home-product__item-price-current">217.999đ</span>
+                                        </div>
+                                        
+                                        <div class="home-product__item-action">
+                                            <div class="home-product__item-like home-product__item-like--liked">
+                                                <i class="home-product__item-like-icon-empty ti-heart"></i>
+                                                <i class="home-product__item-like-icon-fill ti-heart"></i>
+                                            </div>
+
+                                            <div class="home-product__item-rating">
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="ti-star"></i>
+                                            </div>
+
+                                            <span class="home-product__item-sold">88 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product__item-origin">
+                                            <span class="home-product__item-brand">Nước ngoài</span>
+                                            <span class="home-product__item-country">Trung Quốc</span>
+                                        </div>
+
+                                        <div class="home-product__item-favourite">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product__item-sale-off">
+                                            <span class="home-product__item-sale-off__percent">
+                                                45%
+                                            </span>
+                                            <span class="home-product__item-sale-off__label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>  
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./assets/css/img/Trang_phuc_mua_he_5.jfif)">
+                                        </div>
+                                        
+                                        <h4 class="home-product__item-name">Bộ Đồ Ngủ Ngắn Tay Phong Cách Nhật Bản Thời Trang Mùa Hè Cho Nam Và Nữ</h4>
+                                        
+                                        <div class="home-product__item-price">
+                                            <span class="home-product__item-price-old">476.000đ</span>
+                                            <span class="home-product__item-price-current">262.000đ</span>
+                                        </div>
+                                        
+                                        <div class="home-product__item-action">
+                                            <div class="home-product__item-like home-product__item-like--liked">
+                                                <i class="home-product__item-like-icon-empty ti-heart"></i>
+                                                <i class="home-product__item-like-icon-fill ti-heart"></i>
+                                            </div>
+
+                                            <div class="home-product__item-rating">
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="ti-star"></i>
+                                            </div>
+
+                                            <span class="home-product__item-sold">15 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product__item-origin">
+                                            <span class="home-product__item-brand">Nước ngoài</span>
+                                            <span class="home-product__item-country">Trung Quốc</span>
+                                        </div>
+
+                                        <div class="home-product__item-favourite">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product__item-sale-off">
+                                            <span class="home-product__item-sale-off__percent">
+                                                45%
+                                            </span>
+                                            <span class="home-product__item-sale-off__label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>  
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./assets/css/img/Phu_kien_di_bien_1.jfif)">
+                                        </div>
+                                        
+                                        <h4 class="home-product__item-name">Combo 3 món đi biển siêu hot</h4>
+                                        
+                                        <div class="home-product__item-price">
+                                            <span class="home-product__item-price-old">200.000đ</span>
+                                            <span class="home-product__item-price-current">149.999đ</span>
+                                        </div>
+                                        
+                                        <div class="home-product__item-action">
+                                            <div class="home-product__item-like home-product__item-like--liked">
+                                                <i class="home-product__item-like-icon-empty ti-heart"></i>
+                                                <i class="home-product__item-like-icon-fill ti-heart"></i>
+                                            </div>
+
+                                            <div class="home-product__item-rating">
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="ti-star"></i>
+                                            </div>
+
+                                            <span class="home-product__item-sold">1,3k đã bán</span>
+                                        </div>
+
+                                        <div class="home-product__item-origin">
+                                            <span class="home-product__item-brand">Nước ngoài</span>
+                                            <span class="home-product__item-country">Trung Quốc</span>
+                                        </div>
+
+                                        <div class="home-product__item-favourite">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product__item-sale-off">
+                                            <span class="home-product__item-sale-off__percent">
+                                                25%
+                                            </span>
+                                            <span class="home-product__item-sale-off__label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>  
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./assets/css/img/Phu_kien_di_bien_2.jfif)"></div>
+                                        
+                                        <h4 class="home-product__item-name">Khăn Choàng Boho Họa Tiết Thổ Cẩm Đi Biển</h4>
+                                        
+                                        <div class="home-product__item-price">
+                                            <span class="home-product__item-price-old">270.000đ</span>
+                                            <span class="home-product__item-price-current">185.000đ</span>
+                                        </div>
+                                        
+                                        <div class="home-product__item-action">
+                                            <div class="home-product__item-like home-product__item-like--liked">
+                                                <i class="home-product__item-like-icon-empty ti-heart"></i>
+                                                <i class="home-product__item-like-icon-fill ti-heart"></i>
+                                            </div>
+
+                                            <div class="home-product__item-rating">
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="ti-star"></i>
+                                            </div>
+
+                                            <span class="home-product__item-sold">12,3k đã bán</span>
+                                        </div>
+
+                                        <div class="home-product__item-origin">
+                                            <span class="home-product__item-brand">Nước ngoài</span>
+                                            <span class="home-product__item-country">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product__item-favourite">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product__item-sale-off">
+                                            <span class="home-product__item-sale-off__percent">
+                                                31%
+                                            </span>
+                                            <span class="home-product__item-sale-off__label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>                     
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./assets/css/img/Phu_kien_di_bien_3.jfif)">
+                                        </div>
+                                        
+                                        <h4 class="home-product__item-name">Bông tai dáng dài đan mây thủ công phong cách Bohemian cổ điển thời trang đi biển cho nữ</h4>
+                                        
+                                        <div class="home-product__item-price">
+                                            <span class="home-product__item-price-old">100.000đ</span>
+                                            <span class="home-product__item-price-current">68.000đ</span>
+                                        </div>
+                                        
+                                        <div class="home-product__item-action">
+                                            <div class="home-product__item-like home-product__item-like--liked">
+                                                <i class="home-product__item-like-icon-empty ti-heart"></i>
+                                                <i class="home-product__item-like-icon-fill ti-heart"></i>
+                                            </div>
+
+                                            <div class="home-product__item-rating">
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="ti-star"></i>
+                                            </div>
+
+                                            <span class="home-product__item-sold">256 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product__item-origin">
+                                            <span class="home-product__item-brand">Nước ngoài</span>
+                                            <span class="home-product__item-country">Trung Quốc</span>
+                                        </div>
+
+                                        <div class="home-product__item-favourite">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product__item-sale-off">
+                                            <span class="home-product__item-sale-off__percent">
+                                                32%
+                                            </span>
+                                            <span class="home-product__item-sale-off__label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>   
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./assets/css/img/Phu_kien_di_bien_4.jfif)"></div>
+                                        
+                                        <h4 class="home-product__item-name">Khuyên tai đi biển, bông tai boho vintage du lịch nhiều mẫu chọn xinh xắn</h4>
+                                        
+                                        <div class="home-product__item-price">
+                                            <span class="home-product__item-price-old">45.000đ</span>
+                                            <span class="home-product__item-price-current">31.500đ</span>
+                                        </div>
+                                        
+                                        <div class="home-product__item-action">
+                                            <div class="home-product__item-like home-product__item-like--liked">
+                                                <i class="home-product__item-like-icon-empty ti-heart"></i>
+                                                <i class="home-product__item-like-icon-fill ti-heart"></i>
+                                            </div>
+
+                                            <div class="home-product__item-rating">
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="ti-star"></i>
+                                            </div>
+
+                                            <span class="home-product__item-sold">161 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product__item-origin">
+                                            <span class="home-product__item-brand">Nước ngoài</span>
+                                            <span class="home-product__item-country">Trung Quốc</span>
+                                        </div>
+
+                                        <div class="home-product__item-favourite">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product__item-sale-off">
+                                            <span class="home-product__item-sale-off__percent">
+                                                30%
+                                            </span>
+                                            <span class="home-product__item-sale-off__label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>   
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./assets/css/img/Phu_kien_di_bien_5.jfif)"></div>
+                                        
+                                        <h4 class="home-product__item-name">Khăn choàng cổ vải lụa nhân tạo in họa tiết độc đáo sang trọng</h4>
+                                        
+                                        <div class="home-product__item-price">
+                                            <span class="home-product__item-price-old">14.280đ</span>
+                                            <span class="home-product__item-price-current">13.994đ</span>
+                                        </div>
+                                        
+                                        <div class="home-product__item-action">
+                                            <div class="home-product__item-like home-product__item-like--liked">
+                                                <i class="home-product__item-like-icon-empty ti-heart"></i>
+                                                <i class="home-product__item-like-icon-fill ti-heart"></i>
+                                            </div>
+
+                                            <div class="home-product__item-rating">
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="ti-star"></i>
+                                            </div>
+
+                                            <span class="home-product__item-sold">16,4k đã bán</span>
+                                        </div>
+
+                                        <div class="home-product__item-origin">
+                                            <span class="home-product__item-brand">Nước ngoài</span>
+                                            <span class="home-product__item-country">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product__item-favourite">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product__item-sale-off">
+                                            <span class="home-product__item-sale-off__percent">
+                                                2%
+                                            </span>
+                                            <span class="home-product__item-sale-off__label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>   
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./assets/css/img/Thoi_trang_me_be_1.jfif)"></div>
+                                        
+                                        <h4 class="home-product__item-name">Đầm Đi Biển Hai Dây Phong Cách Bohemian Mẫu Mới 2021 Thời Trang Mùa Hè Cho Mẹ Và Bé Gái</h4>
+                                        
+                                        <div class="home-product__item-price">
+                                            <span class="home-product__item-price-old">226.204đ</span>
+                                            <span class="home-product__item-price-current">135.722đ</span>
+                                        </div>
+                                        
+                                        <div class="home-product__item-action">
+                                            <div class="home-product__item-like home-product__item-like--liked">
+                                                <i class="home-product__item-like-icon-empty ti-heart"></i>
+                                                <i class="home-product__item-like-icon-fill ti-heart"></i>
+                                            </div>
+
+                                            <div class="home-product__item-rating">
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="ti-star"></i>
+                                            </div>
+
+                                            <span class="home-product__item-sold">102 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product__item-origin">
+                                            <span class="home-product__item-brand">Nước ngoài</span>
+                                            <span class="home-product__item-country">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product__item-favourite">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product__item-sale-off">
+                                            <span class="home-product__item-sale-off__percent">
+                                                40%
+                                            </span>
+                                            <span class="home-product__item-sale-off__label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>   
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./assets/css/img/Thoi_trang_me_be_2.jfif)"></div>
+                                        
+                                        <h4 class="home-product__item-name">Đầm Maxi Không Tay In Hình Lông Vũ Thời Trang Mùa Hè 2022 Cho Mẹ Và Bé</h4>
+                                        
+                                        <div class="home-product__item-price">
+                                            <span class="home-product__item-price-old">377.000đ</span>
+                                            <span class="home-product__item-price-current">321.000đ</span>
+                                        </div>
+                                        
+                                        <div class="home-product__item-action">
+                                            <div class="home-product__item-like home-product__item-like--liked">
+                                                <i class="home-product__item-like-icon-empty ti-heart"></i>
+                                                <i class="home-product__item-like-icon-fill ti-heart"></i>
+                                            </div>
+
+                                            <div class="home-product__item-rating">
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="ti-star"></i>
+                                            </div>
+
+                                            <span class="home-product__item-sold">0 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product__item-origin">
+                                            <span class="home-product__item-brand">Nước ngoài</span>
+                                            <span class="home-product__item-country">Trung Quốc</span>
+                                        </div>
+
+                                        <div class="home-product__item-favourite">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product__item-sale-off">
+                                            <span class="home-product__item-sale-off__percent">
+                                                20%
+                                            </span>
+                                            <span class="home-product__item-sale-off__label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>   
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./assets/css/img/Thoi_trang_me_be_3.jfif)"></div>
+                                        
+                                        <h4 class="home-product__item-name">Thời trang bé gái Váy phồng tay Váy Mẹ Con gái Váy đầm 3-15 Tuổi Cô gái Váy cotton hoa Cô gái Váy đi biển</h4>
+                                        
+                                        <div class="home-product__item-price">
+                                            <span class="home-product__item-price-old">351.278đ</span>
+                                            <span class="home-product__item-price-current">182.665đ</span>
+                                        </div>
+                                        
+                                        <div class="home-product__item-action">
+                                            <div class="home-product__item-like home-product__item-like--liked">
+                                                <i class="home-product__item-like-icon-empty ti-heart"></i>
+                                                <i class="home-product__item-like-icon-fill ti-heart"></i>
+                                            </div>
+
+                                            <div class="home-product__item-rating">
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="ti-star"></i>
+                                            </div>
+
+                                            <span class="home-product__item-sold">63 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product__item-origin">
+                                            <span class="home-product__item-brand">Nước ngoài</span>
+                                            <span class="home-product__item-country">Hàn Quốc</span>
+                                        </div>
+
+                                        <div class="home-product__item-favourite">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product__item-sale-off">
+                                            <span class="home-product__item-sale-off__percent">
+                                                48%
+                                            </span>
+                                            <span class="home-product__item-sale-off__label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>   
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./assets/css/img/Thoi_trang_me_be_4.jfif)"></div>
+                                        
+                                        <h4 class="home-product__item-name">Đầm Thun polo Tay Ngắn Thời Trang Mùa Hè Đơn Giản Dành Cho Mẹ Và Bé Gái</h4>
+                                        
+                                        <div class="home-product__item-price">
+                                            <span class="home-product__item-price-old">350.000đ</span>
+                                            <span class="home-product__item-price-current">319.694</span>
+                                        </div>
+                                        
+                                        <div class="home-product__item-action">
+                                            <div class="home-product__item-like home-product__item-like--liked">
+                                                <i class="home-product__item-like-icon-empty ti-heart"></i>
+                                                <i class="home-product__item-like-icon-fill ti-heart"></i>
+                                            </div>
+
+                                            <div class="home-product__item-rating">
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="ti-star"></i>
+                                            </div>
+
+                                            <span class="home-product__item-sold">14 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product__item-origin">
+                                            <span class="home-product__item-brand">Nước ngoài</span>
+                                            <span class="home-product__item-country">Trung Quốc</span>
+                                        </div>
+
+                                        <div class="home-product__item-favourite">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product__item-sale-off">
+                                            <span class="home-product__item-sale-off__percent">
+                                                10%
+                                            </span>
+                                            <span class="home-product__item-sale-off__label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>   
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="#" class="home-product__item">
+                                        <div class="home-product__item-img" style="background-image: url(./assets/css/img/Thoi_trang_me_be_5.jfif)"></div>
+                                        
+                                        <h4 class="home-product__item-name">Váy Đi Biển Dáng Dài / Eo Vừa / Ngắn In Hoa Phong Cách Châu Âu Thời Trang Thường Ngày Cho Mẹ Và Bé</h4>
+                                        
+                                        <div class="home-product__item-price">
+                                            <span class="home-product__item-price-old">255.900đ</span>
+                                            <span class="home-product__item-price-current">158.658đ</span>
+                                        </div>
+                                        
+                                        <div class="home-product__item-action">
+                                            <div class="home-product__item-like home-product__item-like--liked">
+                                                <i class="home-product__item-like-icon-empty ti-heart"></i>
+                                                <i class="home-product__item-like-icon-fill ti-heart"></i>
+                                            </div>
+
+                                            <div class="home-product__item-rating">
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="home-product__item-gold ti-star"></i>
+                                                <i class="ti-star"></i>
+                                            </div>
+
+                                            <span class="home-product__item-sold">0 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product__item-origin">
+                                            <span class="home-product__item-brand">Nước ngoài</span>
+                                            <span class="home-product__item-country">Trung Quốc</span>
+                                        </div>
+
+                                        <div class="home-product__item-favourite">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product__item-sale-off">
+                                            <span class="home-product__item-sale-off__percent">
+                                                38%
+                                            </span>
+                                            <span class="home-product__item-sale-off__label">
+                                                GIẢM
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>   
+                                
+                            </div>
+                        </div>
+
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon ti-angle-left"></i>
+                                </a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link pagination-item--active">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">14</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon ti-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-2-4 m-6 c-6">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Địa điểm trên toàn quốc</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-6 c-6">
+                        <h3 class="footer__heading">Giới thiệu</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Giới thiệu</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Điều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-6 c-6">
+                        <h3 class="footer__heading">Danh mục</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Trang điểm mặt</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Trang điểm môi</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Trang điểm mắt</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Kem dưỡng ẩm</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-6 c-6">
+                        <h3 class="footer__heading">Theo dõi chúng tôi</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">
+                                    <i class="footer__item-icon ti-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">
+                                    <i class="footer__item-icon ti-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">
+                                    <i class="footer__item-icon ti-linkedin"></i>
+                                    Linkedin
+                                </a>
+                            </li>
+                        </ul>    
+                    </div>
+                    <div class="col l-2-4 m-0 c-0">
+                        <h3 class="footer__heading">Truy cập trên ứng dụng</h3>
+                        <div class="footer__download">
+                            <img src="./assets/css/img/shopee_qr.png" alt="QR" class="footer__download-qr">
+                            <div class="footer__download-app">
+                                <a href="footer__download-app-link">
+                                    <img src="./assets/css/img/google_play.png" alt="Google Play" class="footer__download-app-img">
+                                </a>
+                                <a href="footer__download-app-link">
+                                    <img src="./assets/css/img/appstore.png" alt="Appstore" class="footer__download-app-img">                  
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer__text">©2022 - Bản quyền thuộc về Công ty PMT</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Modal Layout -->
+    <div class="modal js-modal">
+        <div class="modal__overlay">
+        </div>
+        <div class="modal__body js-modal__body">
+            <!-- Authen Resgiter Form -->
+            <div class="auth-form resgiter-auth-form js-resgiter-auth-form">
+                <div class="auth-form__container">
+
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn js-login-page">Đăng nhập</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="email" class="auth-form__input" placeholder="Nhập Email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">Bằng việc đăng ký, bạn đã đồng ý với chúng tôi về
+                            <a href="#" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                            <a href="#" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__control-back js-return-resgiter">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials-btn auth-form__socials-btn-fb">
+                        <i class="auth-form__socials-icon ti-facebook"></i>
+                        <span class="auth-form__socials-text">Kết nối với Facebook</span>
+                    </a>
+                    <a href="" class="auth-form__socials-btn auth-form__socials-btn-gg">
+                        <i class="auth-form__socials-icon ti-google"></i>
+                        <span class="auth-form__socials-text">Kết nối với Google</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Authen Login Form -->
+            <div class="auth-form login-auth-form js-login-auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="auth-form__switch-btn js-resgiter-page">Đăng ký</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="email" class="auth-form__input" placeholder="Nhập Email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-forgot">
+                                Quên mật khẩu
+                            </a>
+                            <span class="auth-form__help-separate"></span>
+                            <a href="" class="auth-form__help-link">
+                                Cần trợ giúp?
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__control-back js-return-login">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials-btn auth-form__socials-btn-fb">
+                        <i class="auth-form__socials-icon ti-facebook"></i>
+                        <span class="auth-form__socials-text">Đăng nhập với Facebook</span>
+                    </a>
+                    <a href="" class="auth-form__socials-btn auth-form__socials-btn-gg">
+                        <i class="auth-form__socials-icon ti-google"></i>
+                        <span class="auth-form__socials-text">Đăng nhập với Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+
+    <script>
+        const resgiterButtons = document.querySelectorAll('.js-header-resgiter')
+        const loginButtons = document.querySelectorAll('.js-header-login')
+
+        const modal = document.querySelector('.js-modal')
+        const authResgiter = document.querySelector('.js-resgiter-auth-form')
+        const authLogin = document.querySelector('.js-login-auth-form')
+
+        const returnMainpage1 = document.querySelector('.js-return-resgiter')
+        const returnMainpage2 = document.querySelector('.js-return-login')
+
+        const modalBody = document.querySelector('.js-modal__body')
+
+        const loginPageButtons = document.querySelectorAll ('.js-login-page')
+        const resgiterPageButtons = document.querySelectorAll ('.js-resgiter-page')
+
+        function showModaltab() {
+            modal.classList.add('open')
+        }
+        function closeModaltab() {
+            modal.classList.remove('open')
+        }
+        
+        function showAuthResgitertab() {
+            authResgiter.classList.add('open')
+        }
+        function closeAuthResgitertab() {
+            authResgiter.classList.remove('open')
+        }
+
+        function showAuthLogintab() {
+            authLogin.classList.add('open')
+        }
+        function closeAuthLogintab() {
+            authLogin.classList.remove('open')
+        }
+    </script>
+
+    <script>
+        for (var resgiterButton of resgiterButtons) {
+            resgiterButton.addEventListener('click',showModaltab)
+            resgiterButton.addEventListener('click',showAuthResgitertab)
+            resgiterButton.addEventListener('click',closeAuthLogintab)
+        }
+            returnMainpage1.addEventListener('click',closeModaltab)
+
+            modal.addEventListener('click',closeModaltab)
+
+            modalBody.addEventListener('click', function (event) {
+                event.stopPropagation()
+        })
+    </script>
+
+    <script>
+        for (var loginPageButton of loginPageButtons) {
+            loginPageButton.addEventListener('click',showAuthLogintab)
+            loginPageButton.addEventListener('click',closeAuthResgitertab)
+        }
+    </script>
+
+    <script>
+        for (var loginButton of loginButtons) {
+            loginButton.addEventListener('click',showModaltab)
+            loginButton.addEventListener('click',showAuthLogintab)
+            loginButton.addEventListener('click',closeAuthResgitertab)
+        }
+            returnMainpage2.addEventListener('click',closeModaltab)
+
+            modal.addEventListener('click',closeModaltab)
+
+            modalBody.addEventListener('click', function (event) {
+                event.stopPropagation()
+        })
+    </script>
+
+    <script>
+        for (var resgiterPageButton of resgiterPageButtons) {
+            resgiterPageButton.addEventListener('click',showAuthResgitertab)
+            resgiterPageButton.addEventListener('click',closeAuthLogintab)
+        }
+    </script>
+
+</body>
+</html>

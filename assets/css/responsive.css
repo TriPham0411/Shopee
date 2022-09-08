@@ -1,0 +1,118 @@
+/* Tablet & Mobile */
+@media(max-width: 63.9375em) {
+    .hide-on-tablet-mobile {
+        display: none;
+    }
+    .header {
+        position: fixed;
+        z-index: 10;
+    }
+    .search__logo {
+        -webkit-tap-highlight-color: transparent;
+    }
+    .search__cart-warp {
+        -webkit-tap-highlight-color: transparent;
+    }
+    .search__cart-list {
+        position: fixed;
+        top: var(--header-height);
+        width: 100%;
+        padding: 0 calc((100% - 644px) / 2);
+        animation: none;
+    }
+    .search__cart-list-item {
+        max-height: 120px;
+    }
+    .search__cart-list::before {
+        display: none;
+    }
+    .header__sort-bar {
+        display: flex;
+    }
+    .container {
+        margin-top: calc(var(--header-height) + var(--header-sort-bar-height));
+    }
+    .content {
+        padding-top: 8px;
+    }
+    .mobile-category {
+        display: block;
+    }
+    .footer__heading {
+        text-align: center;
+    }
+    .footer__list-item-link {
+        justify-content: center;
+    }
+}
+
+/* Tablet */
+@media(min-width: 46.25em) and (max-width: 63.9375em) {
+    :root {
+        --navbar-height: 0px;
+        --header-height: 64px;
+    }
+    .hide-on-tablet {
+        display: none;
+    }
+    .search__cart {
+        width: 100px;
+        padding-left: 5px;
+    }
+    .header__sort-bar {
+        width: 100%;
+    }
+}
+ 
+/* Mobie */
+@media(max-width: 46.1875em) {
+    :root {
+        --navbar-height: 0px;
+        --header-height: 50px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .search {
+        justify-content: space-between;
+    }
+    .search__mobile {
+        display: block;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .search__logo-img {
+        width: 120px;
+        margin-left: 60px;
+    }
+    .search__bar {
+        position: fixed;
+        top: var(--header-height);
+        box-shadow: 0 0 2px #D3D3D3;
+        padding: 0 8px;
+        animation: mobileSearchSideIn ease 0.3s;
+        display: none;
+    }
+    @keyframes mobileSearchSideIn {
+        from {
+            right: 100%;
+        } 
+        to {
+            right: 0;
+        }
+    }
+    .search__bar-history {
+        position: fixed;
+        width: 100%;
+        top: calc(var(--header-height) + var(--header-sort-bar-height));
+        left: 0;
+    }
+    .search__cart {
+        width: 70px;
+    }
+    .content {
+        margin: 0 5px;
+    }
+    .footer .row {
+        padding-left: 10px;
+    }
+}
